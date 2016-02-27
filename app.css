@@ -8,7 +8,10 @@
 .logo {
   font-family: 'Raleway', sans-serif;
 }
-
+div.uk-navbar-brand {
+    overflow: hidden;
+    white-space: nowrap;
+}
 h1.logo {
   margin-top: 60px;
   font-size: 60px;

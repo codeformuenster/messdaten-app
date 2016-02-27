@@ -3,14 +3,14 @@
                                     <div class="uk-container uk-container-center uk-text-center">
 
                                         <ul class="uk-subnav uk-subnav-line uk-flex-center">
-                                            <li><a href="https://github.com/codeformuenster/open-events">GitHub</a></li>
-                                            <li><a href="https://github.com/codeformuenster/open-events/issues">Issues</a></li>
-                                            <li><a href="https://github.com/codeformuenster/open-events/graphs/contributors">Aktivitätsgraph</a></li>
+                                            <li><a href="https://github.com/codeformuenster/messdaten-app">GitHub</a></li>
+                                            <li><a href="https://github.com/codeformuenster/messdaten-app/issues">Issues</a></li>
+                                            <li><a href="https://github.com/codeformuenster/messdaten-app/graphs/contributors">Aktivitätsgraph</a></li>
                                             <li><a href="https://twitter.com/codeformuenster">Twitter</a></li>
                                         </ul>
 
                                         <div class="uk-panel">
-                                            <p>Fotos von <a href="http://www.gratisography.com/">gratisography.com</a>.</p>
+                                            <p>Icons von <a href="https://github.com/twitter/twemoji">twemoji</a>.</p>
                                             <a href="http://codeformuenster.org"><img src="http://codeformuenster.org/img/cfm_logo.png"></a>
                                         </div>
 
@@ -21,28 +21,20 @@
                                             <div class="uk-offcanvas-bar">
                                                 <ul class="uk-nav uk-nav-offcanvas">
                                                     <li class="uk-active">
-                                                        <a href="http://getuikit.com/docs/layouts_frontpage.html">Frontpage</a>
+                                                        <a href="/">Startseite</a>
                                                     </li>
                                                     <li>
-                                                        <a href="http://getuikit.com/docs/layouts_portfolio.html">Portfolio</a>
+                                                        <a href="/sammeln.php">Daten sammeln</a>
                                                     </li>
                                                     <li>
-                                                        <a href="http://getuikit.com/docs/layouts_blog.html">Blog</a>
+                                                        <a href="/lehrer.php">Lehrerseite</a>
                                                     </li>
                                                     <li>
-                                                        <a href="http://getuikit.com/docs/layouts_documentation.html">Documentation</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="http://getuikit.com/docs/layouts_contact.html">Contact</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="http://getuikit.com/docs/layouts_login.html">Login</a>
+                                                          <a target="_blank" href="https://github.com/codeformuenster/messdaten-app#nrwhackathon">Dokumentation</a>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
-
-
 
 
 </body></html>
