@@ -10,42 +10,37 @@
         <script src="./index_files/jquery.js"></script>
         <script src="./index_files/uikit.min.js"></script>
 
-        	<!-- Leaflet -->
+          <link href='https://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
+
         	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
         	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
           <link rel="stylesheet" href="app.css" />
+
 
     </head>
 
     <body>
 
-        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 
-            <nav class="uk-navbar uk-margin-large-bottom">
-                <a class="uk-navbar-brand uk-hidden-small" href="http://getuikit.com/docs/layouts_frontpage.html">Brand</a>
-                <ul class="uk-navbar-nav uk-hidden-small">
-                    <li class="uk-active">
-                        <a href="http://getuikit.com/docs/layouts_frontpage.html">Frontpage</a>
-                    </li>
-                    <li>
-                        <a href="http://getuikit.com/docs/layouts_portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="http://getuikit.com/docs/layouts_blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href="http://getuikit.com/docs/layouts_documentation.html">Documentation</a>
-                    </li>
-                    <li>
-                        <a href="http://getuikit.com/docs/layouts_contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a href="http://getuikit.com/docs/layouts_login.html">Login</a>
-                    </li>
-                </ul>
-                <a href="http://getuikit.com/docs/layouts_frontpage.html#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas=""></a>
-                <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Brand</div>
-            </nav>
+            <?php include('navigation.php'); ?>
+
+
+            <div class="uk-grid" data-uk-grid-margin="">
+                <div class="uk-width-medium-1-1">
+                    <img class="img-logo" src="image/spassmitdatenlogoSmall.png" /><h1 class="logo">spass<span>mit</span>daten.de</h1>
+                </div>
+            </div>
+
+
+                        <hr class="uk-grid-divider">
+
+
+
+            <div class="uk-grid" data-uk-grid-margin="">
+                <div class="uk-width-medium-1-1">
+                    <h1>Daten-Karte</h1>
+                </div></div>
 
             <div class="uk-grid" data-uk-grid-margin="">
                 <div class="uk-width-medium-1-1 uk-row-first">
@@ -57,55 +52,24 @@
                 </div>
             </div>
 
+                        <hr class="uk-grid-divider">
+
+
             <div class="uk-grid" data-uk-grid-margin="">
                 <div class="uk-width-medium-1-1">
                     <h1>Neuste Datensätze</h1>
                 </div></div>
+
             <div class="uk-grid" id="main-projects" data-uk-grid-margin="">
 
 
 
             </div>
 
-            <div class="uk-grid" data-uk-grid-margin="">
-                <div class="uk-width-medium-1-3 uk-row-first">
-                    <div class="uk-grid">
-                        <div class="uk-width-1-6">
-                            <i class="uk-icon-dashboard uk-icon-large uk-text-primary"></i>
-                        </div>
-                        <div class="uk-width-5-6">
-                            <h2 class="uk-h3">Sample Heading</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="uk-width-medium-1-3">
-                    <div class="uk-grid">
-                        <div class="uk-width-1-6">
-                            <i class="uk-icon-comments uk-icon-large uk-text-primary"></i>
-                        </div>
-                        <div class="uk-width-5-6">
-                            <h2 class="uk-h3">Sample Heading</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="uk-width-medium-1-3">
-                    <div class="uk-grid">
-                        <div class="uk-width-1-6">
-                            <i class="uk-icon-briefcase uk-icon-large uk-text-primary"></i>
-                        </div>
-                        <div class="uk-width-5-6">
-                            <h2 class="uk-h3">Sample Heading</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <hr class="uk-grid-divider">
+<!--
 
             <div class="uk-grid" data-uk-grid-margin="">
 
@@ -212,38 +176,16 @@
                     </figure>
                 </div>
             </div>
+-->
 
         </div>
 
-        <div id="offcanvas" class="uk-offcanvas">
-            <div class="uk-offcanvas-bar">
-                <ul class="uk-nav uk-nav-offcanvas">
-                    <li class="uk-active">
-                        <a href="http://getuikit.com/docs/layouts_frontpage.html">Frontpage</a>
-                    </li>
-                    <li>
-                        <a href="http://getuikit.com/docs/layouts_portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="http://getuikit.com/docs/layouts_blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href="http://getuikit.com/docs/layouts_documentation.html">Documentation</a>
-                    </li>
-                    <li>
-                        <a href="http://getuikit.com/docs/layouts_contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a href="http://getuikit.com/docs/layouts_login.html">Login</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+  <script src="data.js"></script>
 
+  <script src="app.js"></script>
 
+    <script>
+    frontpage();
+    </script>
 
-                        <script src="data.js"></script>
-
-                <script src="app.js"></script>
-
-</body></html>
+<?php include('footer.php');

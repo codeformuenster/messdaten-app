@@ -4,3 +4,27 @@
   float:left;margin-right:10px;width:50px
 }
 .p-info {width:300px}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1.logo {
+  margin-top: 60px;
+  font-size: 60px;
+}
+
+nav .log {font-size: 20px;}
+.logo span {color:#999}
+.img-logo {float:left;width:100px}
+
+
+/* footer */
+      .tm-footer .uk-subnav-line > li:before { border-color: #ddd; }
+      .tm-footer,
+      .tm-footer a { color: #ddd !important; }
+      .tm-footer a:hover { color: #fff !important; }
+      .tm-footer {background-color: rgb(37, 37, 37);}
+      .tm-middle,
+      .tm-section,
+      .tm-footer { padding: 50px 0; }
