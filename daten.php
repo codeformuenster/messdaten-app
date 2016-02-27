@@ -33,8 +33,8 @@
 
             <div class="uk-grid" data-uk-grid-margin="">
 
-                <div class="uk-width-medium-1-2 uk-row-first">
-                    <img width="660" height="400" src="diagrams/balken-schueler.png">
+                <div class="uk-width-medium-1-2 uk-row-first p-image">
+
                 </div>
 
                 <div class="uk-width-medium-1-2">
@@ -85,7 +85,7 @@ function datapage() {
   $('.p-wer').html(punkt.wer);
   $('.p-datum').html(getDate(punkt.datum));
   $('.p-icon').append('<img class="pl-icon" src="'+icon+'" /><br />');
-
+  $('.p-image').append('<img width="660" src="diagrams/'+punkt.diagramm+'" />')
 
   for (i=0;i<6;i++) {
 
