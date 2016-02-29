@@ -31,9 +31,24 @@
                     <img class="img-logo" src="image/spassmitdatenlogoSmall.png" /><h1 class="logo">spass<span>mit</span>daten.de</h1>
                 </div>
             </div>
+            
+            <hr class="uk-grid-divider">
 
+            <div class="uk-grid" data-uk-grid-margin="">
+                <div class="uk-width-medium-1-1">
+                  <p>
+                    Das Projekt "Spaß mit Daten" wurde auf dem [NRWHackathon](https://land.nrw/de/pressemitteilung/hack-fuer-deine-bildung) ins Leben gerufen. Zu sehen ist hier der erste Entwurf, der nach Ideenfindung und Teambuilding am Samstagvormittag von unserem Team bis zum Abend entwickelt wurde.
+                  </p>
+                  <p>
+                    Wir werden die App über die nächsten Wochen weiter entwickeln. Über Fragen, Anregungen oder Mitstreiter freuen wir uns natürlich. Gerne über [Issues](https://github.com/codeformuenster/spassmitdaten/issues) in unserem [Repository](https://github.com/codeformuenster/spassmitdaten) und Twitter: [@codeformuenster](https://twitter.com/codeformuenster).
+                  </p>
+                  <p>
+                    Oder besucht uns einfach am [Tag der offenen Daten](http://codeformuenster.org/opendataday/)! :-)
+                  </p>
+                </div>
+            </div>
 
-                        <hr class="uk-grid-divider">
+            <hr class="uk-grid-divider">
 
 
 
