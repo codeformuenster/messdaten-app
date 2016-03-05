@@ -11,7 +11,7 @@
 
                                         <div class="uk-panel">
                                             <p>Icons von <a href="https://github.com/twitter/twemoji">twemoji</a>.</p>
-                                            <a href="http://codeformuenster.org"><img src="http://codeformuenster.org/img/cfm_logo.png"></a>
+                                            <a href="http://codeformuenster.org"><img src="image/cfm_logo_w.png"></a>
                                         </div>
 
                                     </div>
