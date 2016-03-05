@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0047)http://getuikit.com/docs/layouts_frontpage.html -->
 <html lang="en-gb" dir="ltr" class="uk-notouch"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Spaß mit Daten</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Frontpage layout example - UIkit documentation</title>
